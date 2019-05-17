@@ -1,9 +1,9 @@
 // CRUD - create read update DELETE
+// Not used - early connection to local DB
 
 const { MongoClient, ObjectID } = require("mongodb");
 
-const connectionURL =
-  "mongodb://tmanagerAdmin:qwMhFWAjGj6RgLmFXu@127.0.0.1:27017/task-manager";
+const connectionURL = process.env.MONGODB_URI;
 const databaseName = "task-manager";
 
 MongoClient.connect(

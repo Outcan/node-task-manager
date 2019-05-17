@@ -5,3 +5,4 @@ playground/
 infos/
 src/index_with_multer-example.js
 src/index_with_mware-jwt-populate.js
+mongodb.js
